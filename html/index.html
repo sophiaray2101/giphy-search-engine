@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GifGen</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <h3 class="page-title">Gif Generator</h3>
+      <ul class="nav-bar">
+        <li class="nav-bar-item"><a href="./index.html">Home</a></li>
+        <li class="nav-bar-item"><a href="./quiz.html">Quiz</a></li>
+        <li class="nav-bar-item"><a href="#">Contact</a></li>
+        <li class="nav-bar-item"><a href="#">FAQs</a></li>
+      </ul>
+    </header>
+    <h1 id="search-bar-title">Type below to search for Gifs</h1>
+
+    <form id="search-bar-form">
+        <div class="search-bar-item">
+          <input type="text" id="search" name="search" placeholder="Type to search" />
+        </div>
+        <div class="search-bar-item">
+          <input type="button" onclick="searchGif()" value="Search" />
+      </div>
+    </form>
+    <section id="gif-section">
+        
+    </section>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+    color: white;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.page-title{
+    margin: 0;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.nav-bar{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar-item a{
+    text-decoration: none;
+    margin-left: 20px; 
+    color: white;
+    letter-spacing: 1px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+#search-bar-title{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    letter-spacing: 2px;
+    font-family: Shrikhand, Arial, Helvetica, sans-serif;
+    margin-bottom: 35px;
+}
+
+#search-bar-form{
+    max-width:600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    background-color: rgb(204, 204, 244);
+    border: 2px solid blue;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+#search{
+    width: 400px;
+    border: 1px solid blue;
+    padding: 6px;
+    border-radius: 3px;
+    font-style: italic;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+input[type=button]{
+    padding:6px 10px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    color:rgb(204, 204, 244);
+    background-color:blue;
+    cursor: pointer;
+}
+
+#gif-section-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    background-color: blue;
+}
+
+.gif-item{
+    flex: 1 1 calc(25% - 32px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.gif-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: white;
+}
