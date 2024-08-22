@@ -23,16 +23,32 @@
     <h1 id="search-bar-title">Type below to search for Gifs</h1>
 
     <form id="search-bar-form">
-        <div class="search-bar-item">
-          <input type="text" id="search" name="search" placeholder="Type to search" />
-        </div>
-        <div class="search-bar-item">
-          <input type="button" onclick="searchGif()" value="Search" />
+      <div class="search-bar-item">
+        <input
+          type="text"
+          id="search"
+          name="search"
+          placeholder="Type to search"
+        />
+      </div>
+      <div class="search-bar-item">
+        <input type="button" onclick="searchGif()" value="Search" />
       </div>
     </form>
-    <section id="gif-section">
-        
-    </section>
+    <section id="gif-section"></section>
+    <div id="modal-overlay"></div>
+    <div id="gif-modal" class="modal">
+        <div class="modal-content">
+            <div class="close-button">&times;</div>
+            <img id="zoomed-gif" src="" alt="Zoomed Gif">
+            <button id="copy-button">Copy URL</button>
+        </div>
+    </div>
+    <form id="pagination-form">
+        <button id="prev-button" type="button">&#8592;</button>
+        <div id="pagination-page-num">Page 1</div>
+        <button id="next-button" type="button">&#8594;</button>
+      </form>
     <script src="../js/main.js"></script>
   </body>
 </html>
