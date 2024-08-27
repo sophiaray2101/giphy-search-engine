@@ -15,5 +15,18 @@ This `giphy-search-engine` is a javascript project that uses my giphy API key to
 - **Clipboard URL Copying**: Within the modal, there is a copy URL button which will copy the GIFs url directly to their clipboard with a single click, as well as alerting the user that the url was copied.
 - **Quiz Feature**: This application also includes a mini quiz game where users try to guess the movie from the GIFs. This feature is implemented with dynamic content generating and scoring, making it engaging and fun for users.
 
+## Technologies Used
+
+- HTML
+- CSS
+- Javascript
+- Giphy API
+
+## Ideas for Future Improvement
+
+- I would like to expand the quiz to have more questions for users to play longer.
+- I want to change the look of the modal window, as well as make the copy button look more like a copy bar, where a pop up on the curser shows it was copied.
+- I want to upgrade the quiz so youcan change your answer option when selected, and also press a submit and retake button.
+
 ## Contact Me
-For any inquiries, please reach out at <sophiaray.2101@gmail.com>
+For any inquiries, please reach out to me, Sophia Ray, at <sophiaray.2101@gmail.com>
