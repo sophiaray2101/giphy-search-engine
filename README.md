@@ -1,4 +1,4 @@
-# giphy-search-engine
+# Giphy Search Engine
 
 This project is a simple giphy search engine designed to allow lookup and copy urls of gifs, as well as demonstrate javascript knowledge!
 
