@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gif Quiz</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+    <header class="page-header">
+        <h3 class="page-title">Gif Generator</h3>
+        <ul class="nav-bar">
+          <li class="nav-bar-item"><a href="./index.html">Home</a></li>
+          <li class="nav-bar-item"><a href="./quiz.html">Quiz</a></li>
+          <li class="nav-bar-item"><a href="#">Contact</a></li>
+          <li class="nav-bar-item"><a href="#">FAQs</a></li>
+        </ul>
+      </header>
+      <h1 id="quiz-header"> Press Button Below to take GIf Quiz</h1>
+      <form id="take-quiz-form">
+       <input type="button" onclick="renderQuiz()" value="Take Quiz" id="take-quiz-button">
+      </form>
+
+      <section id="quiz-section-container">
+
+        <div id="result"></div>
+      </section>
+      
+      <script src="../js/movie.js"></script>
+</body>
+</html>
